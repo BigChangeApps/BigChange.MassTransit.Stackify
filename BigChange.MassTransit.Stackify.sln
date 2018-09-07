@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigChange.MassTransit.Stackify", "src\BigChange.MassTransit.Stackify\BigChange.MassTransit.Stackify.csproj", "{0D17427F-B828-4D03-A611-CEE654ED6E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigChange.MassTransit.Stackify.Tests", "test\BigChange.MassTransit.Stackify.Tests\BigChange.MassTransit.Stackify.Tests.csproj", "{0280C865-81E5-40EA-B9CF-66B25931AD46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D17427F-B828-4D03-A611-CEE654ED6E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D17427F-B828-4D03-A611-CEE654ED6E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D17427F-B828-4D03-A611-CEE654ED6E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D17427F-B828-4D03-A611-CEE654ED6E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0280C865-81E5-40EA-B9CF-66B25931AD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0280C865-81E5-40EA-B9CF-66B25931AD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0280C865-81E5-40EA-B9CF-66B25931AD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0280C865-81E5-40EA-B9CF-66B25931AD46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F67FD28-F464-4F29-AC04-545301C13F36}
+	EndGlobalSection
+EndGlobal
