@@ -4,6 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>BigChange.MassTransit.Stackify</PackageId>
+    <Authors>BigChange</Authors>
+    <Company>BigChange</Company>
+    <Description>Enables Stackify tracing for MassTransit</Description>
+    <PackageProjectUrl>https://github.com/BigChangeApps/BigChange.MassTransit.Stackify</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BigChangeApps/BigChange.MassTransit.Stackify.git</RepositoryUrl>
+    <PackageTags>MassTransit;Stackify;BigChange;Tracing</PackageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="MassTransit" Version="5.1.4" />
     <PackageReference Include="StackifyLib" Version="2.1.3" />
