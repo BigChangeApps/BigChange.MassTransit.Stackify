@@ -16,7 +16,7 @@ for:
     only:
       - master
 
-  version: 0.0.1-beta{build}
+  version: 0.0.{build}
 
   deploy:
     - provider: Environment
