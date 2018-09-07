@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 
 namespace BigChange.MassTransit.Stackify
 {
-	public interface IProfileTracer
-	{
-		Task ExecAsync(Func<Task> task);
-	}
+    public interface IProfileTracer
+    {
+        Task ExecAsync(Func<Task> task);
+    }
 }

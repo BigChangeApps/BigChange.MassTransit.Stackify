@@ -5,7 +5,7 @@ using MassTransit;
 
 namespace BigChange.MassTransit.Stackify
 {
-	public class StackifySpecification<T> :
+    public class StackifySpecification<T> :
         IPipeSpecification<T>
         where T : class, ConsumeContext
     {

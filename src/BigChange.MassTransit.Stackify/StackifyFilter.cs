@@ -5,7 +5,7 @@ using MassTransit;
 
 namespace BigChange.MassTransit.Stackify
 {
-	public class StackifyFilter<T> :
+    public class StackifyFilter<T> :
         IFilter<T>
         where T : class, ConsumeContext
     {
@@ -27,11 +27,11 @@ namespace BigChange.MassTransit.Stackify
         {
             var messageType = context.SupportedMessageTypes.FirstOrDefault() ?? "Unknown";
 
-	        var tracer =
-		        _stackifyProfileTracerFactory.CreateAsOperation($"{StepName} {messageType}",
-			        context.MessageId?.ToString());
+            var tracer =
+                _stackifyProfileTracerFactory.CreateAsOperation($"{StepName} {messageType}",
+                    context.MessageId?.ToString());
 
-	        await tracer.ExecAsync(async () => await next.Send(context).ConfigureAwait(false)).ConfigureAwait(false);
+            await tracer.ExecAsync(async () => await next.Send(context).ConfigureAwait(false)).ConfigureAwait(false);
         }
     }
 }
